@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+   
+}
+
+body{
+    background-color: black;
+    padding: 15px;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    color: #A8A8A8;
+    align-items: center;
+    border-bottom: 1px solid #a8a8a8;
+    padding-bottom: 15px;
+    margin-top: 60px;
+}
+
+.containerHeader .logo h1{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.logo{
+    display: flex;
+}
+
+/*----------------MAIN----------------------*/
+
+main{
+    color: #f9f9f9;
+  
+}
+
+.title{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 14px;
+    
+}
+.subtitulo{
+    font-weight: 400;
+}
+.divTitulo{
+    margin-bottom: 50px;
+}
+
+/*----------------CONTEUDO----------------------*/
+
+.conteudo{
+    display: flex;
+    gap:15px;
+    border-bottom: 1px solid #a8a8a8;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.conteudo img{
+    height: 100px;
+    border-radius: 15px;
+}
+.titleConteudo h1{
+    margin-bottom: 15px;
+}
+#indice{
+    color: rgb(206, 56, 56);
+}
+
+/*--------------NOTICIAS-------------------*/
+
+.noticias{
+   
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.noticias a{
+    text-decoration: none;
+    color: #f9f9f9;
+    background-color: rgb(206, 56, 56);
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+/*------------------------RODAPE------------------*/
+.links{
+display: flex;
+gap: 10px;
+
+align-items: center;
+justify-content: center;
+
+}
+
+.links a{
+    text-decoration: none;
+    color:rgb(206, 56, 56);
+    border: 1px solid #A8A8A8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.rodapeInfinity{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9f9;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    gap: 25px;
+}
